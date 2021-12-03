@@ -26,8 +26,6 @@ type bookSchema {
   type Query {
     user(username: String!): Auth
     users: [User]
-    book(bookId: String!): bookSchema
-    books: [bookSchema]
   }
 
   type Mutation {
